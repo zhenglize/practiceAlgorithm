@@ -2,6 +2,7 @@ package sort;
 /**
 *@author zhenglize
  * 冒泡排序:设计思想每次排好最大的那个，类似于冒泡一样，泡泡从大到小
+ * 时间复杂度为O（n^2），且与数据状况无关
 */
 public class bubbleSort {
     public static void bubbleSort(int[] arr){
