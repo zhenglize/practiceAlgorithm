@@ -3,6 +3,7 @@ package sort;
 *@author zhenglize
  * 选择排序
  * 每次找到最小的数的索引，之后交换索引元素的位置
+ * 时间复杂度为O（n^2），且与数据状况无关
 */
 public class selectionSort {
     public static void selectionSort(int[] arr){
