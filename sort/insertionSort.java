@@ -6,6 +6,7 @@ package sort;
  * 举例说明
  * 数组 1 2 3 4 已经排好序了，新来了一个3小于4，4和3交换位置，接着3与3比较，不小于则本次插入操作终止 ,如果还可以插入
  * 则继续插入
+ * 时间复杂度与数据状况有关，最好的情况时间复杂度为O(n)，最坏的情况时间复杂度为O（n^2）
 */
 public class insertionSort {
     public static void insertionSort(int[] arr){
