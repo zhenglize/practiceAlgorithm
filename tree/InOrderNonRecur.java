@@ -6,6 +6,7 @@ import java.util.Stack;
 *@author zhenglize
   中序遍历的非递归版
  当前节点为空。打印当前节点的值，当前节点向右。当前节点不空，将当前节点压入栈中，当前节点向左移动
+
 */
 public class InOrderNonRecur {
     public static void inorderNonRecur(Node head){
