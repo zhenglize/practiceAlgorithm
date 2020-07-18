@@ -5,6 +5,9 @@ import java.util.Scanner;
 /**
 *@author zhenglize
   手写实现环型队列，可以实现数据的复用
+   判断队列满的条件为: (rear + 1) % maxsize = front
+   判断队列中可用元素的个数为: (rear + maxsize - front) % maxsize
+   判断队列是否为空的条件为 rear == front
 */
 public class CyclicArray {
     private int maxSize;
